@@ -1,0 +1,25 @@
+/* Altura y proporciones de la imagen Hero */
+.hero-img {
+    height: 420px;
+    object-fit: cover;
+}
+
+.max-w-600 {
+    max-width: 600px;
+}
+
+/* Efecto hover interactivo en las tarjetas de 4 columnas */
+.role-button {
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.role-button:hover {
+    transform: scale(1.04);
+    filter: brightness(1.1);
+}
+
+/* Ajustes tipográficos pequeños */
+.fs-7 {
+    font-size: 0.85rem;
+}
